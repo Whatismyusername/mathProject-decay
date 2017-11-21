@@ -1,0 +1,158 @@
+<html>
+    <head>
+        <title>Conflict Mode Double Player</title>
+        <link href="Game.css" rel="stylesheet">
+        <link href="GameConflictMode.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+        <script src="GameConflictMode.js"></script>
+    </head>
+    <body>
+        <div id="Blank2"></div>
+        <div id="WholePage">
+            <div id="Blank1"></div>
+            <div id="Border">
+                <div id="Black"></div>
+                <div id="Blank3"></div>
+                <div id="Question">
+                    <div id="Start"><button id="Begin"></button></div>
+                    <div class="Questions" id="Question1">
+                        <p id="QuestionQ1"></p>
+                        <p class="QuestionN" id="QuestionN1"></p>
+                    </div>
+                    <div class="Questions" id="Question2">
+                        <p id="QuestionQ2"></p>
+                        <p class="QuestionN" id="QuestionN2"></p>
+                    </div>
+                    <div class="Questions" id="Question3">
+                        <p id="QuestionQ3"></p>
+                        <p class="QuestionN" id="QuestionN3"></p>
+                    </div>
+                    <div class="Questions" id="Question4">
+                        <p id="QuestionQ4"></p>
+                        <p class="QuestionN" id="QuestionN4"></p>
+                    </div>
+                </div>
+                <div id="Top">
+                    <div id="Character1">
+                        <div class="PicBar">
+                            <div class="CPic" id="C1Pic"></div>
+                            <div class="UserName" id="Username1">
+                                <h3 class="CName" id="C1Name"></h3>
+                            </div>
+                            <div class="BarDiv">
+                                <div id="C1Bar">
+                                    <div class="HealthAmount" id="C1HealthAmount">1000/1000</div>
+                                    <div class="Health1" id="H1-1"></div>
+                                    <div class="Health1" id="H1-2"></div>
+                                    <div class="Health1" id="H1-3"></div>
+                                    <div class="Health1" id="H1-4"></div>
+                                    <div class="Health1" id="H1-5"></div>
+                                    <div class="Health1" id="H1-6"></div>
+                                    <div class="Health1" id="H1-7"></div>
+                                    <div class="Health1" id="H1-8"></div>
+                                    <div class="Health1" id="H1-9"></div>
+                                    <div class="Health1" id="H1-10"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="CharacterFinal" id="CharacterFinal1"></div>
+                        <div class="Minus" id="Minus-1">
+                            <p class="MinusP">-100</p>
+                        </div>
+                        <div class="Lightning" id="Lightning1"></div>
+                    </div>
+                    <div id="Character2">
+                        <div class="PicBar">
+                            <div class="CPic" id="C2Pic"></div>
+                            <div class="Username" id="Username2">
+                                <h3 class="CName" id="C2Name"></h3>
+                            </div>
+                            <div class="BarDiv">
+                                <div id="C2Bar">
+                                    <div class="HealthAmount" id="C2HealthAmount">1000/1000</div>
+                                    <div class="Health2" id="H2-10"></div>
+                                    <div class="Health2" id="H2-9"></div>
+                                    <div class="Health2" id="H2-8"></div>
+                                    <div class="Health2" id="H2-7"></div>
+                                    <div class="Health2" id="H2-6"></div>
+                                    <div class="Health2" id="H2-5"></div>
+                                    <div class="Health2" id="H2-4"></div>
+                                    <div class="Health2" id="H2-3"></div>
+                                    <div class="Health2" id="H2-2"></div>
+                                    <div class="Health2" id="H2-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="CharacterFinal" id="CharacterFinal2"></div>
+                        <div class="Minus" id="Minus-2">
+                            <p class="MinusP">-100</p>
+                        </div>
+                        <div class="Lightning" id="Lightning2"></div>
+                    </div>
+                </div>
+                <div id="Bot">
+                   <div class="Answer">
+                       <div class="CAnswer" id="C1Answer">
+                           <h3 class="X">x=</h3>
+                           <input class="CAInput" id="C1AInput" disabled>
+                       </div>
+                       <div class="ClickDiv">
+                           <button class="Click" id="Lock1">Unlock</button>
+                           <button class="Click" id="Submit1">Submit</button>
+                       </div>
+                   </div>
+                   <div class="Answer">
+                       <div class="CAnswer" id="C2Answer">
+                           <h3 class="X">x= </h3>
+                           <input class="CAInput" id="C2AInput" disabled>
+                       </div>
+                       <div class="ClickDiv">
+                           <button class="Click" id="Lock2">Unlock</button>
+                           <button class="Click" id="Submit2">Submit</button>
+                       </div>
+                   </div>
+                </div>
+            </div>
+            <div id="AnswerSheet">
+                <div id="CRight">
+                    <div id="C1RW"></div>
+                    <div id="Formula">y = a(1-r)^t</div>
+                    <div id="C2RW"></div>
+                </div>
+                <div id="QuestionGiven">
+                    <div class="Review1" id="ReviewQ1"></div>
+                    <div class="Review2" id="ReviewN1"></div>
+                    <div class="Review1" id="ReviewQ2"></div>
+                    <div class="Review2" id="ReviewN2"></div>
+                    <div class="Review1" id="ReviewQ3"></div>
+                    <div class="Review2" id="ReviewN3"></div>
+                    <div class="Review1" id="ReviewQ4"></div>
+                    <div class="Review2" id="ReviewN4"></div>
+                    <div></div>
+                </div>
+                <div id="Solution">
+                    <div class="Steps" id="YourAnswer"></div><br>
+                    <div class="Steps" id="TheRightAnswer">The Right Answer is:</div>
+                    <div class="Steps" id="FirstStep"></div>
+                    <div class="Steps" id="SecondStep"></div>
+                    <div class="Steps" id="ThirdStep"></div>
+                </div>
+                <div id="CloseDiv">
+                    <button id="Close">Close</button>
+                </div>
+            </div>
+        </div>
+        <audio autoplay loop id="myaudio">
+            <source src="MusicSheIsMySin.mp3" type="audio/mpeg">
+            <source src="MusicStronger.mp3" type="audio/mpeg">
+            <source src="MusicSugar.mp3" type="audio/mpeg">
+            <source src="MusicRockabye.mp3" type="audio/mpeg">
+        </audio>
+        <script>
+          var audio = document.getElementById("myaudio");
+          audio.volume = 0.3;
+        </script>
+    </body>
+</html>

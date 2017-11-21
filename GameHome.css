@@ -1,0 +1,142 @@
+body{
+    background-color:#99ccff;
+}
+#WholePage{
+    width:1100px;
+    margin-left:auto;
+    margin-right:auto;
+    height:600px;
+    border-radius:25px;
+    background-color:#6699ff;
+}
+#Blank1{
+    height:35px;
+}
+#Border{
+    height:530px;
+    width:1030px;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url("http://abc.2008php.com/2015_Website_appreciate/2015-05-04/20150504192610.jpg");
+    background-size:100% 100%;
+}
+#Blank2{
+    height:50px;
+}#ConflictMode{
+    font-family:Bungee Shade;
+    font-size:40px;
+    text-align:center;
+    margin-top:-45px;
+    margin-bottom:-80px;
+}
+.CharacterPic{
+    height:300px;
+    width:300px;
+    background-size:100% 100%;
+    float:left;
+}
+#Model{
+    height:300px;
+    width:600px;
+    background-size:100% 100%;
+    border-radius:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#Potato3L{
+    background-image:url("Potato3L.png");
+}
+#Robot3R{
+    background-image:url("Robot3R.png");
+}
+#R{
+    color:#ff3300;
+}
+#B{
+    color:#99ccff;
+}
+#Shadow{
+    -webkit-animation:Shadow infinite 2s;
+}
+@-webkit-keyframes Shadow{
+    0%{
+        text-shadow:#ff3300 0px 5px 10px; 
+    }
+    50%{
+        text-shadow:#99ccff 0px 5px 10px;
+    }
+    100%{
+        text-shadow:#ff3300 0px 5px 10px;
+    }
+}
+#Select{
+    height:143px;
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.Selection{
+    height:90px;
+    width:300px;
+    float:left;
+    margin-top:26.5px;
+}
+.SelectButton{
+    height:70px;
+    width:200px;
+    margin-left:50px;
+    margin-top:10px;
+    border:#ffffff solid 5px;
+    border-radius:10px;
+    -webkit-animation:Button infinite 4s;
+}
+@-webkit-keyframes Button{
+    0%{
+        background-color:rgba(255, 80, 80, 0.8);
+    }
+    8%{
+        background-color:rgba(255, 153, 51, 0.8);
+
+    }
+    17%{
+        background-color:rgba(255, 255, 0, 0.8);
+
+    }
+    25%{
+        background-color:rgba(153, 255, 51, 0.8);
+    }
+    33%{
+       background-color:rgba(51, 204, 51, 0.8);
+    }
+    42%{
+        background-color:rgba(0, 255, 153, 0.8);
+    }
+    50%{
+        background-color:rgba(51, 204, 204, 0.8);
+    }
+    58%{
+        background-color:rgba(0, 153, 255, 0.8);
+    }
+    67%{
+        background-color:rgba(51, 102, 255, 0.8);
+    }
+    75%{
+        background-color:rgba(153, 102, 255, 0.8);
+    }
+    83%{
+        background-color:rgba(255, 0, 255, 0.8);
+    }
+    92%{
+        background-color:rgba(255, 51, 153, 0.8);
+    }
+    100%{
+        background-color:rgba(255, 80, 80, 0.8);
+    }
+}
+a{
+    font-family:Pangolin;
+    font-size:30px;
+    font-weight:bold;
+    color:#000000;
+    text-decoration:none;
+}

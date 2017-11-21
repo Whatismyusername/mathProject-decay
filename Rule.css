@@ -1,0 +1,77 @@
+body{
+    background-color:#99ccff;
+}
+#WholePage{
+    width:1100px;
+    margin-left:auto;
+    margin-right:auto;
+    height:600px;
+    border-radius:25px;
+    background-color:#6699ff;
+}
+#Blank1{
+    height:35px;
+}
+#Border{
+    height:530px;
+    width:1030px;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url("http://abc.2008php.com/2015_Website_appreciate/2015-05-04/20150504192610.jpg");
+    background-size:100% 100%;
+}
+#Blank2{
+    height:50px;
+}
+h1{
+    color:ffffff;
+    font-family:Bungee Shade;
+    font-size:50px;
+    margin-top:0px;
+    text-shadow:#ffffff 5px 5px 10px;
+}
+#Title{
+    height:110px;
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#body{
+    height:420px;
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:rgba(255, 255, 255, 0.6);
+    border-radius:100%;
+}
+#Rabbit2L{
+    height:250px;
+    width:250px;
+    background-image:url("Rabbit2L.png");
+    background-size:100% 100%;
+    margin-right:-80px;
+    float:right;
+}
+#Text{
+    height:420px;
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    float:right;
+}
+#BackDiv{
+    height:100px;
+    width:100px;
+    margin-left:-64px;
+    margin-top:319px;
+    position:absolute;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+#Back{
+    width: 0; 
+    height: 0; 
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right:50px solid #99ccff; 
+    margin-left:20px;
+}

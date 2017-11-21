@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Double Player - Champion Select</title>
+        <link href="Game.css" rel="stylesheet">
+        <link href="DoublePlayer.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Pangolin" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="DoublePlayer.js"></script>
+    </head>
+    <body>
+        <div id="Blank2"></div>
+        <div id="WholePage">
+            <div id="Blank1"></div>
+            <div id="Border">
+                <button id="StartGame"><a id="StartGameWords" href="GameConflictMode.html">StartGame</a></button>
+                <div id="Title">
+                    <h1 id="DP">Double Player-</h1>
+                    <h1 id="ChampionSelect">Champion Select</h1>
+                </div>
+                <div class="CharacterMainDiv" id="Character1">
+                    <div class="Team"><h3 class="RedTeam">The Red Team</h3></div>
+                    <div class="Select" id="Select1">
+                        <div class="Click"><button class="red" id="L1"><div id="LeftArrow1"></div></button></div>
+                        <div class="Character" id="CharacterS1"></div>
+                        <div class="Click"><button class="red" id="R1"><div id="RightArrow1"></div></button></div>
+                    </div>
+                    <div class="ID">
+                        <div class="Name"><h3 class="RedTeam">Your Name:</h3></div>
+                        <div class="InputButton">
+                            <div class="Name" id="JsName1"><h3></h3></div>
+                            <input class="NameInput" maxlength="15" id="C1NameInput">
+                            <button class="LockButton" id="JsLock1">Lock</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="CharacterMainDiv" id="Character2">
+                    <div class="Team"><h3 class="BlueTeam">The Blue Team</h3></div>
+                    <div class="Select" id="Select2">
+                        <div class="Click"><button class="blue" id="L2"><div id="LeftArrow2"></div></button></div>
+                        <div class="Character" id="CharacterS2"></div>
+                        <div class="Click"><button class="blue" id="R2"><div id="RightArrow2"></div></button></div>
+                    </div>
+                    <div class="ID">
+                        <div class="Name"><h3 class="BlueTeam">Your Name:</h3></div>
+                        <div class="InputButton">
+                            <div class="Name" id="JsName2"><h3 class="BlueTeam"></h3></div>
+                            <input class="NameInput" maxlength="15" id="C2NameInput">
+                            <button class="LockButton" id="JsLock2">Lock</button>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <audio autoplay loop>
+            <source src="MusicSugar.mp3" type="audio/mpeg">
+        </audio>
+    </body>
+</html>

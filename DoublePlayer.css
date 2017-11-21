@@ -1,0 +1,242 @@
+#Title{
+    height:150px;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:Bungee Shade;
+    font-size:20px;
+    text-shadow:#000000 0px 10px 20px;
+    background:rgba(255, 153, 51,0.3);
+    border-radius:100px;
+    -webkit-animation:Title 4s Infinite;
+}
+@-webkit-keyframes Title{
+    0%{
+        color:#ff0000;
+    }
+    80%{
+        color:#ffff99;
+    }
+    100%{
+        color:#ff0000;
+    }
+}
+#ChampionSelect{
+    text-align:right;
+    margin-top:-30px;
+}
+#DP{
+    margin-top:0px;
+}
+.CharacterMainDiv{
+    height:380px;
+    width:515px;
+    float:left;
+}
+.Character{
+    height:231.5px;
+    width:231.5px;
+    border-radius:100%;
+    background-size:100% 100%;
+    float:left;
+}
+#CharacterS1{
+    background-color:rgba(255, 51, 0,0.5);
+    background-image:url("Potato1L.png");
+}
+#CharacterS2{
+    background-color:rgba(153, 204, 255,0.5);
+    background-image:url("Potato1R.png");
+}
+.Click{
+    height:230px;
+    width:141px;
+    float:left;
+}
+.Red{
+    background-color:rgba(255, 51, 0,0.5);
+}
+.Blue{
+    background-color:rgba(153, 204, 255,0.5);
+}
+#LeftArrow1{
+    width: 0; 
+    height: 0; 
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-radius:100px;
+    border-right:50px solid #ff3300; 
+}
+#L1{
+    margin-top:65px;
+    margin-left:70px;
+}
+#LeftArrow2{
+    width: 0; 
+    height: 0; 
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-radius:100px;
+    border-right:50px solid #99ccff; 
+}
+#L2{
+    margin-top:65px;
+    margin-left:70px;
+}
+#RightArrow2{
+    width: 0; 
+    height: 0; 
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-radius:100px;
+    border-left:50px solid #99ccff; 
+}
+#R2{
+    margin-top:65px;
+    margin-left:5px;
+}
+#RightArrow1{
+    width: 0; 
+    height: 0; 
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-radius:100px;
+    border-left:50px solid #ff3300; 
+}
+#R1{
+    margin-top:65px;
+    margin-left:5px;
+}
+.Team{
+    margin-left:auto;
+    margin-right:auto;
+    height:25px;
+    width:200px;
+    font-family:Pangolin;
+    font-size:25px;
+    text-align:center;
+}
+.RedTeam{
+    text-shadow:#ff3300 0px 0px 10px;
+}
+.BlueTeam{
+    text-shadow:#99ccff 0px 0px 10px;
+}
+.ID{
+    margin-top:250px;
+    height:74px;
+}
+.Name{
+    text-align:center;
+    height:30px;
+    width:200px;
+    font-family:Pangolin;
+    font-size:17px;
+}
+.InputButton{
+    height:44px;
+    width:300px;
+    margin-left:auto;
+}
+.NameInput{
+    height:30px;
+    float:left;
+    font-family:Pangolin;
+    font-size:17px;
+}
+#JsName1{
+    float:left;
+    position:absolute;
+    font-size:30px;
+    background-color:rgba(255, 255, 255, 0.5);
+    text-shadow:#ff3300 0px 0px 10px;
+}
+#JsName2{
+    float:left;
+    position:absolute;
+    font-size:30px;
+    background-color:rgba(255, 255, 255, 0.5);
+    text-shadow:#99ccff 0px 0px 10px;
+}
+#JsLock1{
+    height:30px;
+    width:44px;
+    background-color:rgba(255, 51, 0,0.5);
+    font-family:Pangolin;
+}
+#JsLock2{
+    height:30px;
+    width:44px;
+    background-color:rgba(153, 204, 255,0.5);
+    font-family:Pangolin;
+}
+#StartGame{
+    height:70px;
+    width:150px;
+    position:absolute;
+    margin-top:290px;
+    margin-left:440px;
+    border-radius:10px;
+    border:#000000 solid 3px;
+    -webkit-animation:Button infinite 4s;
+}
+@-webkit-keyframes Button{
+    0%{
+        background-color:rgba(255, 80, 80, 0.8);
+    }
+    8%{
+        background-color:rgba(255, 153, 51, 0.8);
+
+    }
+    17%{
+        background-color:rgba(255, 255, 0, 0.8);
+
+    }
+    25%{
+        background-color:rgba(153, 255, 51, 0.8);
+    }
+    33%{
+       background-color:rgba(51, 204, 51, 0.8);
+    }
+    42%{
+        background-color:rgba(0, 255, 153, 0.8);
+    }
+    50%{
+        background-color:rgba(51, 204, 204, 0.8);
+    }
+    58%{
+        background-color:rgba(0, 153, 255, 0.8);
+    }
+    67%{
+        background-color:rgba(51, 102, 255, 0.8);
+    }
+    75%{
+        background-color:rgba(153, 102, 255, 0.8);
+    }
+    83%{
+        background-color:rgba(255, 0, 255, 0.8);
+    }
+    92%{
+        background-color:rgba(255, 51, 153, 0.8);
+    }
+    100%{
+        background-color:rgba(255, 80, 80, 0.8);
+    }
+}
+@-webkit-keyframes Border{
+    0%{
+        border-radius:10px;
+    }
+    50%{
+        border-radius:100%;
+    }
+    100%{
+        border-radius:10px;
+    }
+}
+#StartGameWords{
+    font-family:Pangolin;
+    font-size:25px;
+    color:#000000;
+    text-decoration:none;
+}
